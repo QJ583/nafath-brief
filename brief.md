@@ -29,5 +29,8 @@ A national digital identity service processes sensitive information that may ide
 
 Resource: https://decree.om/2022/l20220006/
 ## Misconception in My Track
+A common misconception in cybersecurity is that enabling multi-factor authentication automatically makes an account resistant to phishing. In reality, some methods, such as manually entered one-time passwords, can still be intercepted or relayed by an attacker using a fake login page. NIST explains that phishing resistance requires authentication protocols to prevent authentication secrets or valid outputs from being disclosed to an impostor verifier without relying on the user’s vigilance. Therefore, phishing-resistant authentication and layered security controls are important for protecting national digital identity services.
 
+Resource: https://pages.nist.gov/800-63-4/sp800-63b/authenticators/
 ## Open Question
+How can Oman’s national digital identity service balance phishing-resistant authentication, accessibility for users with different devices and abilities, and privacy protection while maintaining reliable access to government and other digital services?
