@@ -17,11 +17,17 @@ Mobile security matters because users may access digital identity services throu
 
 Resource: https://developer.android.com/guide/topics/permissions/overview
 ## Networking
+Networking is critical to a national digital login service because authentication requests and identity assertions must travel securely between users, identity providers, and connected services. Encrypted communication using HTTPS helps protect data in transit against interception and tampering. Network monitoring, secure DNS configuration, segmentation, and resilient infrastructure can further reduce exposure to attacks and service disruption. However, encryption alone does not guarantee that an endpoint or identity provider is trustworthy; secure configuration and continuous monitoring remain necessary.
 
+Resource: https://www.rfc-editor.org/rfc/rfc8484.html
 ## Cybersecurity
+Cybersecurity is central to a national digital login service because compromised credentials can allow attackers to impersonate legitimate users and access connected services. Important safeguards include phishing-resistant authentication, multi-factor authentication, rate limiting, secure account recovery, logging, and incident response procedures. Security teams should monitor suspicious login attempts and investigate unusual activity without unnecessarily blocking legitimate users. NIST’s Digital Identity Guidelines provide technical guidance on authentication and authenticator management, including methods that resist phishing attacks.
 
+Resource: https://csrc.nist.gov/pubs/sp/800/63/b/4/final
 ## Data
+A national digital identity service processes sensitive information that may identify individuals, so data protection must be considered throughout the system lifecycle. Organizations should define clear purposes for data collection, limit access to authorized personnel, apply appropriate retention periods, and protect information with suitable technical and organizational measures. Data accuracy and secure deletion also matter because errors or unnecessary retention can increase privacy risks. Oman’s Personal Data Protection Law establishes a legal framework for processing personal data, although its stated exclusions must also be considered when assessing applicability.
 
+Resource: https://decree.om/2022/l20220006/
 ## Misconception in My Track
 
 ## Open Question
